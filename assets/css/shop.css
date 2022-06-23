@@ -1,0 +1,63 @@
+.container-shop
+{
+    position: absolute;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: calc(50% - 300px);
+}
+.box
+{
+    margin-bottom: 60px;
+    text-align: center;
+    display: flex;
+}
+input,
+p
+{
+    font-size: 1.5em;
+}
+p
+{
+    margin-top: 20px;
+}
+input[type="submit"]
+{
+    border: none;
+    color: white;
+    background: #212529;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 70px;
+}
+.bild
+{
+    width: 300px;
+    height: 400px;
+    background: red;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+.bilder
+{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    transition: 0.3s;
+}
+.beschreibung
+{
+    width: 300px;
+    height: 400px;
+    background: transparent;
+    position: relative;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+.bilder:hover
+{
+    transform: scale(1.2);
+}

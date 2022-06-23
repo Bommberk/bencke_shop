@@ -1,0 +1,79 @@
+
+.container-buy
+{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: calc(50% - 100px);
+}
+.box-buy
+{
+    width: 200px;
+    height: 200px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input
+{
+    font-size: 1.2em;
+    width: 700px;
+    height: 50px;
+    margin-top: 10px;
+    border: 1px solid #aaa;
+}
+input[type="submit"]
+{
+    width: 200px;
+    float: right;
+    border: none;
+    background: #212529;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+    transition: 0.2s;
+}
+input[type="submit"]:hover
+{
+    background: #666;
+}
+input[type="text"],
+input[type="email"]
+{
+    text-indent: 5px;
+}
+.abbruch
+{
+    position: absolute;
+    text-decoration: none;
+    background: #666;
+    color: white;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 1.2em;
+    transition: 0.2s;
+    transition-delay: 0.1s; 
+}
+.abbruch::before
+{
+    content: 'Abbrechen';
+    position: absolute;
+    background: #666;
+    inset: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s;
+}
+.abbruch:hover::before
+{
+    background: #212529;
+}
+.abbruch:hover
+{
+    background: #212529;
+}
