@@ -1,9 +1,13 @@
 <?php
 
+error_reporting(-1);
+ini_set('display_errors','on');
+
     require_once("functions.php");
 
     include("Medoo.php");
     
+
     
          
     // Using Medoo namespace.
@@ -14,9 +18,9 @@
         // [required]
         'type' => 'mysql',
         'host' => 'localhost',
-        'database' => 's5418_bencke',
-        'username' => 's5418_bencke',
-        'password' => '7sp4qM#86',
+        'database' => 'bencke',
+        'username' => 'root',
+        'password' => '',
      
         // [optional]
         'charset' => 'utf8mb4',
