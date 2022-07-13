@@ -1,4 +1,4 @@
-<a class="logout" href="/bencke_datenbank">Ausloggen</a>
+<a class="logout" href="/?page=logout">Ausloggen</a>
 
 <?php
 
