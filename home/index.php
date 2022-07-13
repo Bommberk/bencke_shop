@@ -108,7 +108,7 @@ $database = new Medoo([
 
 
     }else{
-        header("location: /bencke_datenbank/?page=login");
+        header("location: /?page=login");
     }
 
 ?>
