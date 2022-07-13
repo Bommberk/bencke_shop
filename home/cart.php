@@ -42,12 +42,16 @@ if($zähler != 0){
         }
 
 
+
         echo "<a class='btn-buy' href='?page=buy'>Weiter zur Kasse</a>";
 
     }else{
         echo "<b>Dein Warenkorb ist Leer</b>.";
     }
         
+
+    
+
 
     ?>
 </div>

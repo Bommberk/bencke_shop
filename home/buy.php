@@ -1,6 +1,8 @@
+<link rel="stylesheet" href="../assets/css/buy.css">
+
 <div class="container-buy">
     <div class="box-buy">
-        <form action="" method="POST">
+        <form action="?page=ready" method="POST">
             <input placeholder="Vorname" type="text" name="" id=""><br>
             <input placeholder="Nachname" type="text" name="" id=""><br>
             <input placeholder="Postleitzahl" type="text" name="" id=""><br>
@@ -12,7 +14,6 @@
     </div>
 </div>
 
-    <link rel="stylesheet" href="..assets/css/buy.css">
     
 <?php
 
