@@ -14,9 +14,9 @@ $database = new Medoo([
     // [required]
     'type' => 'mysql',
     'host' => 'localhost',
-    'database' => 'bencke',
-    'username' => 'root',
-    'password' => '',
+    'database' => 's5418_bencke',
+    'username' => 's5418_bencke',
+    'password' => '7sp4qM#86',
  
     // [optional]
     'charset' => 'utf8mb4',
