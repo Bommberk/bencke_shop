@@ -66,6 +66,7 @@ $database = new Medoo([
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bencke</title>
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/home.css">
 </head>
@@ -92,9 +93,10 @@ $database = new Medoo([
 
         if(isset($_GET["page"])){
             switch($_GET["page"]){
-                case "shop"   : include("shop.php");echo "<title>Bencke - Shop</title>";break;
-                case "home"   : include("home.php");echo "<title>Bencke - Home</title>";break;
-                case "cart"   : include("cart.php");echo "<title>Bencke - Warenkorb</title>";break;
+                case "shop"   : include("shop.php");break;
+                case "home"   : include("home.php");break;
+                case "cart"   : include("cart.php");break;
+                case "cart"   : include("cart.php");break;
                 case "remove" : include("remove.php");break;
                 case "buy"    : include("buy.php");break;
                 default       : include("home.php");
