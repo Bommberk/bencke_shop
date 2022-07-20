@@ -103,6 +103,7 @@ session_start();
 
         $empfaenger = "jim.mohncke@gmail.com";
         $betreff = "Die Mail-Funktion";
+        $headers = "MIME-Version: 1.0\r\n";
         $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
         $from = "From: Jim Mohncke <jim.mohncke@gmail.com>";
         $text = "<html><body><h1>Hallo</h1><br><h3>was geht bei dir</h3></body></html>";      
