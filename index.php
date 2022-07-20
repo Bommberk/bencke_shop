@@ -98,7 +98,12 @@ session_start();
 
         // Produkte im Shop anzeigen
 
-        
+
+        // Email
+
+        $nachicht = "Hallo\r\n was geht bei dir\r\ also mir geht es gut";
+
+        mail("jim.mohncke@gmail.com",$nachicht);
 
     ?>
 
