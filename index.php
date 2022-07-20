@@ -92,7 +92,7 @@ session_start();
         
         // Login
 
-        if(isset($_POST["login"]) && $_POST["login"] == 2){
+      if(isset($_POST["login"]) && $_POST["login"] == 2){
             daten_check();
         }
 
@@ -101,9 +101,11 @@ session_start();
 
         // Email
 
-        $nachicht = "Hallo\r\n was geht bei dir\r\ also mir geht es gut";
-
-        mail("jim.mohncke@gmail.com",$nachicht);
+        $empfaenger = "jim.mohncke@gmail.com";
+        $betreff = "Die Mail-Funktion";
+        $from = "From: Jim Mohncke <jim.mohncke@gmail.com>";
+        $text = "Hallo test";      
+        mail($empfaenger, $betreff, $text, $from);
 
     ?>
 
