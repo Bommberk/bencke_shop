@@ -105,7 +105,7 @@ session_start();
         $betreff = "Die Mail-Funktion";
         $from = "From: Jim Mohncke <jim.mohncke@gmail.com>";
         $headers->isHtml(true);
-        $text = "Hallo Jim,\r\n
+        $text = "<h1>Hallo Jim</h1>,\r\n
                  jemand hat den Bencke Shop besucht!
         ";      
         mail($empfaenger, $betreff, $text, $from,$headers);
