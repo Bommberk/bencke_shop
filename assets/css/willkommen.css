@@ -42,3 +42,11 @@ a:hover i
     margin-left: 5px;
     opacity: 1;
 }
+@media(max-width: 620px)
+{
+    a
+    {
+        display: block;
+        margin-top: 20px;
+    }
+}

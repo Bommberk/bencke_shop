@@ -14,3 +14,9 @@ function progress(){
     }
 }
 setInterval(function(){progress()}, 50);
+
+
+function menu(){
+    document.getElementById("bars").classList.toggle("menu-bars");
+    document.getElementById("x").classList.toggle("menu-x");
+}

@@ -53,3 +53,26 @@ a:hover
 {
     color: #52b6f0;
 }
+@media(max-width: 620px)
+{
+    input[type="email"],
+    input[type="password"]
+    {
+        width: 350px;
+        height: 60px;
+        font-size: 1.3em;
+    }
+    input[type="submit"]
+    {
+        font-size: 1.7em;
+    }
+    i
+    {
+        font-size: 1.3em;
+    }
+    a
+    {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
