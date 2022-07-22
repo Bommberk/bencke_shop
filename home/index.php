@@ -117,4 +117,6 @@ $database = new Medoo([
     }
 
 ?>
+
+<script src="../assets/script/script.js"></script>
 <script src="https://kit.fontawesome.com/350675982b.js" crossorigin="anonymous"></script>
