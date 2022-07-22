@@ -28,7 +28,6 @@ if($zähler != 0){
         <div class='daten'>
             "
                 .$hallo->bild."
-                <a href='?page=remove&id=".$hallo->id."'><i class='fa-solid fa-trash'></i></a>
                 <p>".$hallo->name."</p>
                 <p>".$hallo->preis."</p>
             </div>
