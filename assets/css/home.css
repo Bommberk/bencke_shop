@@ -83,3 +83,12 @@ i
         display: none;
     }
 }
+@media(max-width: 830px)
+{
+    .btn-home a
+    {
+        font-size: 1.3em;
+        top: 20px;
+        position: absolute;
+    }
+}
