@@ -29,8 +29,8 @@ if($zähler != 0){
             "
                 .$hallo->bild."
                 <p>".$hallo->name."</p>
-                <p>".$hallo->preis."</p>
                 <a href='?page=remove&id=".$hallo->id."'><i class='fa-solid fa-trash'></i></a>
+                <p>".$hallo->preis."</p>
             </div>
             ";
 
