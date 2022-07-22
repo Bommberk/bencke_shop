@@ -80,6 +80,10 @@ $database = new Medoo([
             <div class="links">
                 <a href="?page=shop">Zum Shop</a>
                 <a href="?page=cart">Warenkorb(<?=$zähler?>)</a>
+                <div class="icons" onclick="menu()">
+                    <i id="bars" class="fa-solid fa-bars"></i>
+                    <i id="x" class="fa-solid fa-xmark"></i>
+                </div>
             </div>
         </div>
     </header>
