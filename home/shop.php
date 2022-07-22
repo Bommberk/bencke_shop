@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="../assets/css/shop.css">
 <div class="container-shop">
 <?php
 
@@ -53,5 +54,3 @@
 
 
 </div>
-<link rel="stylesheet" href="../assets/css/shop.css">
-

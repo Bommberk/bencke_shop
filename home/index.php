@@ -66,8 +66,7 @@ $database = new Medoo([
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="../assets/img/bencke_logo.png" type="image/x-icon">
-    <title>Bencke</title>
+    <title>Document</title>
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/home.css">
 </head>
@@ -104,6 +103,7 @@ $database = new Medoo([
                 case "cart"   : include("cart.php");break;
                 case "remove" : include("remove.php");break;
                 case "buy"    : include("buy.php");break;
+                case "ready"  : include("ready.php");break;
                 default       : include("home.php");
             }
         }else{
@@ -113,10 +113,10 @@ $database = new Medoo([
 
 
     }else{
-        header("location: /?page=login");
+        header("location: /bencke_datenbank/?page=login");
     }
 
 ?>
 
-<script src="../assets/script/script.js"></script>
 <script src="https://kit.fontawesome.com/350675982b.js" crossorigin="anonymous"></script>
+<script src="../assets/script/script.js"></script>
