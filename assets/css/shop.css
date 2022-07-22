@@ -61,19 +61,3 @@ input[type="submit"]
 {
     transform: scale(1.2);
 }
-@media(max-width: 660px)
-{
-    .box
-    {
-        display: block;
-        margin-left: 50%;
-    }
-    .bild
-    {
-        margin-bottom: -20px;
-    }
-    .beschreibung
-    {
-        height: 300px;
-    }
-}

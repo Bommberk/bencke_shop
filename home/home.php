@@ -1,4 +1,4 @@
-<a class="logout" href="../?page=login">Ausloggen</a>
+<a class="logout" href="/?page=logout">Ausloggen</a>
 
 <?php
 
