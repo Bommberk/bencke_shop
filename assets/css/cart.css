@@ -91,37 +91,37 @@ i:hover
 }
 @media(max-width: 860px)
 {
-    .container-cart .daten
+    .daten
     {
         width: 400px;
         margin-left: 50%;
         height: 80px;
         position: relative;
     }
-    .daten .bilder
+    .bilder
     {
         height: 70px;
         width: 70px;
     }
-    .daten p
+    p
     {
         font-size: 1.3em;
     }
-    .daten p:nth-child(4)
+    p:nth-child(4)
     {
         position: absolute;
         left: 320px;
     }
-    .headlines h2
+    h2
     {
         font-size: 1.1em;
         margin-left: 50%;
     }
-    .headlines h2:nth-child(2)
+    h2:nth-child(2)
     {
         left: 320px;
     }
-    .daten i
+    i
     {
         font-size: 1.1em;
     }
