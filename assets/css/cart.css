@@ -89,7 +89,7 @@ i:hover
 {
     background: grey;
 }
-@media(max-width: 860px)
+/* @media(max-width: 860px)
 {
     .container-cart .daten
     {
@@ -129,4 +129,4 @@ i:hover
     {
         font-size: 1em;
     }
-}
+} */
