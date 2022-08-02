@@ -57,4 +57,4 @@ if($zähler != 0){
 </div>
 
 
-<link rel="stylesheet" href="../assets/css/cart.css">
+<!-- <link rel="stylesheet" href="../assets/css/cart.css"> -->
