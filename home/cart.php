@@ -26,7 +26,7 @@ if($zähler != 0){
     foreach($data as $hallo){
         echo "
         <div class='daten'>
-            <a href='?page=remove&id=".$hallo->id."'><i class='fa-solid fas-trash-can'></i></a>"
+            <a href='?page=remove&id=".$hallo->id."'><i class='fa-solid fa-trash-can'></i></a>"
                 .$hallo->bild."
                 <p>".$hallo->name."</p>
                 <p>".$hallo->preis."</p>
