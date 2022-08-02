@@ -26,7 +26,7 @@ if($zähler != 0){
     foreach($data as $hallo){
         echo "
         <div class='daten'>
-            <a href='?page=remove&id=".$hallo->id."'><i class='fa-solid fa-trash'></i></a>"
+            <a href='?page=remove&id=".$hallo->id."'>Löschen</i></a>"
                 .$hallo->bild."
                 <p>".$hallo->name."</p>
                 <p>".$hallo->preis."</p>
@@ -95,7 +95,7 @@ p:nth-child(4)
     right: 20px;
     position: absolute;
 }
-/* .daten
+.daten
 {
     display: flex;
     align-items: center;
@@ -104,7 +104,7 @@ p:nth-child(4)
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
     margin-left: 0px;
-} */
+}
 i
 {
     font-size: 1.3em;
