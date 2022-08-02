@@ -15,6 +15,8 @@ $data = json_decode(json_encode($data));
 
 $zähler = count($data);
 
+$icon_trash = "<i class='fa-solid fa-trash-can'></i>";
+
 
 if($zähler != 0){
     
@@ -26,7 +28,7 @@ if($zähler != 0){
     foreach($data as $hallo){
         echo "
         <div class='daten'>
-            <a href='?page=remove&id=".$hallo->id."'><i class='fa-solid fa-sun'></i></a>"
+            <a href='?page=remove&id=".$hallo->id."'>".$icon_trash."</a>"
                 .$hallo->bild."
                 <p>".$hallo->name."</p>
                 <p>".$hallo->preis."</p>
