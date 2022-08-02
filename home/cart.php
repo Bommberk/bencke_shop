@@ -108,14 +108,14 @@ p:nth-child(4)
     border-bottom: 1px solid grey;
     margin-left: 0px;
 }
-i
+span
 {
     font-size: 1.3em;
     color: #212529;
     text-decoration: none;
     transition: 0.2s;
 }
-i:hover
+span:hover
 {
     color: #7a7a7a;
 }
@@ -183,7 +183,7 @@ i:hover
     {
         left: 320px;
     }
-    .daten i
+    .daten span
     {
         font-size: 1.1em;
     }
