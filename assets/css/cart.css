@@ -1,11 +1,11 @@
-/* .container-cart
+.container-cart
 {
     position: absolute;
     margin-top: 200px;
     text-align: center;
     left: calc(50% - 400px);
-} */
-/* .headlines
+}
+.headlines
 {
     display: flex;
     margin-left: 30px;
@@ -14,15 +14,15 @@ h2:nth-child(2)
 {
     position: absolute;
     right: 40px;
-} */
-/* .bilder
+}
+.bilder
 {
     width: 80px;
     height: 80px;
     margin-right: 20px;
     border-radius: 50%;
-} */
-/* p
+}
+p
 {
     font-size: 2em;
 }
@@ -35,8 +35,8 @@ p:nth-child(4)
 {
     right: 20px;
     position: absolute;
-} */
-/* .daten
+}
+.daten
 {
     display: flex;
     align-items: center;
@@ -88,7 +88,7 @@ i:hover
 .btn-buy:hover::before
 {
     background: grey;
-} */
+}
 /* @media(max-width: 860px)
 {
     .container-cart .daten
