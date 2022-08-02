@@ -26,7 +26,7 @@ if($zähler != 0){
     foreach($data as $hallo){
         echo "
         <div class='daten'>
-            <a href='?page=remove&id=".$hallo->id."'>Löschen</i></a>"
+            <a href='?page=remove&id=".$hallo->id."'><i class='fa-solid fas-trash-can'></i></a>"
                 .$hallo->bild."
                 <p>".$hallo->name."</p>
                 <p>".$hallo->preis."</p>
@@ -148,7 +148,7 @@ i:hover
 {
     background: grey;
 }
-/* @media(max-width: 860px)
+@media(max-width: 860px)
 {
     .container-cart .daten
     {
@@ -188,7 +188,7 @@ i:hover
     {
         font-size: 1em;
     }
-} */
+}
 </style>
 
 <!-- <link rel="stylesheet" href="../assets/css/cart.css"> -->
