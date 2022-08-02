@@ -22,7 +22,7 @@ h2:nth-child(2)
     margin-right: 20px;
     border-radius: 50%;
 }
-p
+/* p
 {
     font-size: 2em;
 }
@@ -35,8 +35,8 @@ p:nth-child(4)
 {
     right: 20px;
     position: absolute;
-}
-.daten
+} */
+/* .daten
 {
     display: flex;
     align-items: center;
@@ -88,7 +88,7 @@ i:hover
 .btn-buy:hover::before
 {
     background: grey;
-}
+} */
 /* @media(max-width: 860px)
 {
     .container-cart .daten
