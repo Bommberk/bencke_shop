@@ -15,7 +15,8 @@ $data = json_decode(json_encode($data));
 
 $zähler = count($data);
 
-$icon_trash = "<i class='fa-solid fa-trash-can'></i>";
+
+$icon_trash = "<span class='material-symbols-outlined'>delete</span>";
 
 
 if($zähler != 0){
@@ -194,3 +195,4 @@ i:hover
 </style>
 
 <!-- <link rel="stylesheet" href="../assets/css/cart.css"> -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
