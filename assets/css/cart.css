@@ -5,7 +5,7 @@
     text-align: center;
     left: calc(50% - 400px);
 }
-.headlines
+/* .headlines
 {
     display: flex;
     margin-left: 30px;
@@ -14,7 +14,7 @@ h2:nth-child(2)
 {
     position: absolute;
     right: 40px;
-}
+} */
 .bilder
 {
     width: 80px;
