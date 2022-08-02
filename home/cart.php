@@ -95,7 +95,7 @@ p:nth-child(4)
     right: 20px;
     position: absolute;
 }
-.daten
+/* .daten
 {
     display: flex;
     align-items: center;
@@ -104,7 +104,7 @@ p:nth-child(4)
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
     margin-left: 0px;
-}
+} */
 i
 {
     font-size: 1.3em;
