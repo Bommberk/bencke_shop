@@ -103,6 +103,7 @@ $database = new Medoo([
                 case "cart"   : include("cart.php");break;
                 case "cart"   : include("cart.php");break;
                 case "remove" : include("remove.php");break;
+                case "ready" : include("ready.php");break;
                 case "buy"    : include("buy.php");break;
                 default       : include("home.php");
             }
