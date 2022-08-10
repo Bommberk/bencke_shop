@@ -87,6 +87,8 @@ i
 {
     .btn-home
     {
-        color: red;
+        font-size: 1.3em;
+        top: 20px;
+        position: absolute;
     }
 }
