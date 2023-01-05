@@ -101,13 +101,6 @@ session_start();
 
         // Email
 
-        $empfaenger = "jim.mohncke@gmail.com";
-        $betreff = "Die Mail-Funktion";
-        $from = "From: Jim Mohncke <jim.mohncke@gmail.com>";
-        $text = "Hallo Jim,\r\n
-                 jemand hat den Bencke Shop besucht!
-        ";      
-        mail($empfaenger, $betreff, $text, $from);
 
     ?>
 
